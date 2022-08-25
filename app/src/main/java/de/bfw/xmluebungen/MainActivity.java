@@ -14,9 +14,9 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_call);
+        setContentView(R.layout.activity_table_layout);
 
-        Button callButton = findViewById(R.id.call_button);
+        /*Button callButton = findViewById(R.id.call_button);
         callButton.setOnClickListener(view -> {
             TextView callNumberInput = findViewById(R.id.call_screen_phone_number_input);
             Toast.makeText(this, "Calling: " + callNumberInput.getText(), Toast.LENGTH_SHORT).show();
@@ -24,6 +24,6 @@ public class MainActivity extends AppCompatActivity {
             Intent intent = new Intent(Intent.ACTION_DIAL);
             intent.setData(Uri.parse("tell:" + callNumberInput.getText()));
             startActivity(intent);
-        });
+        });*/
     }
 }
